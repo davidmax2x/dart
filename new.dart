@@ -1,7 +1,15 @@
 class name {
-  var my_name="david";
+  var firstname="david";
+
+ fname(){
+  String bname=this.firstname;
+  print(bname);
+    var secondname="Oreoluwa";
+      return secondname;
+
+  }
 }
-void main(List<String> args) {
+void main() {
   var n=name();
-  print(n.my_name);
+  print(n.firstname);
 }
