@@ -18,7 +18,6 @@
 
 // }
 void main() {
-  var number;
-  number ?? "mike";
-  print(number);
+  var number ;
+  print(number ?? 1);
 }
