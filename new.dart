@@ -2,7 +2,7 @@ class name {
   var __firstname="david";
 
  fname(){
-  String bname=this.firstname;
+  String bname=this.__firstname;
   print(bname);
     var secondname="Oreoluwa";
       return secondname;
@@ -11,5 +11,8 @@ class name {
 }
 void main() {
   var n=name();
-  print(n.firstname);
+  print(n.fname());
+  print(n.__firstname);
+  n.__firstname="Iyaomolere";
+  print(n.__firstname);
 }
