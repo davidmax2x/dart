@@ -1,5 +1,5 @@
 class name {
-  var firstname="david";
+  var __firstname="david";
 
  fname(){
   String bname=this.firstname;
