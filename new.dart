@@ -10,9 +10,10 @@ class name {
   }
 }
 void main() {
-  var n=name();
-  print(n.fname());
-  print(n.__firstname);
-  n.__firstname="Iyaomolere";
-  print(n.__firstname);
+  var n;
+  var Name;
+   Name=n?.__firstname ?? "mike";
+  print(Name);
+
+
 }
