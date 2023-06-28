@@ -1,3 +1,4 @@
+import 'dart:io';
 // class name {
 //   var __firstname="david";
 
@@ -18,9 +19,10 @@
 
 // }
 void main() {
-  var number=11 ;
-  var mage=name(12);
-  var result =number%2==0 ? mage:"hi";
+  var number=11;
+  stdout.writeln("what would you like to write? ");
+  var word=stdin.readLineSync();
+  var result =number%2==0 ? word:"hi";
   print(result);
 }
 name(int age){
