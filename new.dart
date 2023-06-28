@@ -19,10 +19,10 @@ import 'dart:io';
 
 // }
 void main() {
-  var number=11;
+  var number=110;
   stdout.writeln("what would you like to write? ");
   var word=stdin.readLineSync();
-  var result =number%2==0 ? word:"hi";
+  var result =number%2==0 ? "hey $word":"hi";
   print(result);
 }
 name(int age){
