@@ -18,6 +18,11 @@
 
 // }
 void main() {
-  var number ;
-  print(number ?? 1);
+  var number=11 ;
+  var mage=name(12);
+  var result =number%2==0 ? mage:"hi";
+  print(result);
+}
+name(int age){
+  print("i am $age years old");
 }
